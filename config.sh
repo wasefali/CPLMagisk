@@ -40,11 +40,9 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Open CPL Installer   "
-  ui_print "     Installing  "
-  ui_print " Installed "
-  ui_print "*******************************"
+  ui_print "=============================="
+  ui_print "   Systemless CPL Installer   "
+  ui_print "=============================="
 }
 
 ##########################################################################################
@@ -65,11 +63,11 @@ REPLACE="
 # Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 REPLACE="
+/system/app/Launcher3
 /system/priv-app/Launcher3QuickStep
 /system/priv-app/Trebuchet
 /system/priv-app/NexusLauncherPrebuilt
 /system/priv-app/Launcher3
-/system/app/Launcher3
 "
 
 ##########################################################################################
